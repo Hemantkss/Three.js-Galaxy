@@ -1,0 +1,54 @@
+# === Node.js and frontend ===
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+.temp/
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.env
+
+# === Logs and debug ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# === Environment Files ===
+.env
+.env.local
+.env.*.local
+
+# === OS and IDE specific ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Test and Coverage ===
+coverage/
+.nyc_output/
+jest-output/
+.pytest_cache/
+
+# === Deployment and CI/CD ===
+.vercel/
+.netlify/
+.husky/
+.turbo/
+
+# === Misc ===
+*.sqlite3
+*.bak
+*.tmp
